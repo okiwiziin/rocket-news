@@ -17,27 +17,19 @@ body {
   font-family: Spartan;
   background-color: var(--body-bg-color);
   color: var(--text-color);
+
+  height: 100vh;
+  display: flex;
 }
 
 main {
-  display: flex;
-  height: 100vh;
-}
-
-.login {
   margin: 50px 0 0 30px;
-
   width: 720px;
 }
 
-.login section {
-  display: flex;
-  flex-direction: column;
-
+h2 {
   margin-top: 92px;
-}
 
-.login section h2 {
   color: var(--title-color);
   font-family: 'Work Sans';
 
@@ -47,7 +39,7 @@ main {
   margin-bottom: 8.56px;
 }
 
-.login section strong {
+strong {
   font-size: 14px;
   font-weight: bold;
 
@@ -56,14 +48,14 @@ main {
   margin-bottom: 9px;
 }
 
-.login section p {
+p {
   color: #fff;
   font-size: 14x;
 
   width: 647px;
 }
 
-.login form {
+.login-form {
   display: flex;
   flex-direction: column;
 
@@ -72,7 +64,7 @@ main {
   margin-top: 50px;
 }
 
-.login form input {
+.login-form input {
   padding-left: 10px;
   width: 100%;
   height: 100%;
@@ -133,11 +125,11 @@ main {
   font-weight: bold;
 }
 
-main > div {
+footer {
   flex: 1;
 }
 
-main > div img {
+footer > img {
   width: 100%;
   height: 100%;
 
